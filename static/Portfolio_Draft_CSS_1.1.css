@@ -1,0 +1,173 @@
+
+.Top{
+    width: 100%;
+    background: linear-gradient(45deg, blue, white);
+    background-size: 200% 100%;
+    
+    animation-name: Top_Animation;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+    padding-bottom: 3%;
+    
+}
+
+@keyframes Top_Animation{
+    0% {background-position: 0%;}
+    50% {background-position: 100%;}
+}
+
+/* .Main_Body{
+}
+.List_Of_Pages_Background{
+} */
+.My_Description{
+    text-align: center;
+    background-color: rgb(12,35,64);
+}
+
+.Column_Link{
+    float: left;
+    width: 33.3%;
+    /* background-color: blue; */
+    text-align: center;
+    color: rgb(15,12,8);
+    text-decoration: none;
+    font-size: 170%;
+    font-family: 'Trebuchet MS';
+    
+    background-size: 200% 200%;
+    background-image: linear-gradient(to right, rgb(180,180,180) 50%, rgb(50,75,125,.8) 50% );
+    transition: background-position 1s;
+}
+.Column_Link:hover{
+    background-position: -100% 0;
+    color: rgb(240,240,240)
+}
+
+/* #Top_Part{
+    background-color: rgb(250,50,150,.9);
+    position: fixed;
+    bottom: 100px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+#Top_Part a{
+    display: inline-block;
+    text-align: center;
+    font-size: 170%;
+    padding: 4px 16px;
+    background: #f1f1f1;
+    text-decoration: none;
+    background-color: rgb(50, 100, 100);
+    color: rgb(25,250,250);
+    transition: .3s;
+    width: 15%;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to right, rgb(150,150,150) 50%, rgb(50,75,125,.8) 50% );
+    transition: background-position .5s;
+}
+
+#Top_Part a:hover{
+    background-color: rgb(195, 145, 155);
+    color: rgb(5,5,5);
+    transition: 1s;
+    left: 0;
+    background-position: -100% 0;
+} */
+#My_Description{
+    display: inline-block;
+    background-color: rgb(46,39,99);
+    width:50%;
+    height:50px;
+    transition: 1s;
+    color: rgb(192,192,192)
+}
+#My_Description:hover {
+    height: 500px;
+    transition: height 2s;
+}
+
+#Cool_Pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+}
+
+
+/* .Column{
+    display: inline-block;
+    background-color: rgb(180,10,10,.3);
+    
+    border-style: solid;
+    border-color: aquamarine;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+} */
+/* .C_One, .C_Two, .C_Three{
+    width: 33.3%;
+    height:auto;
+    padding: 0;
+    margin: 0;
+} */
+
+/* .section_1{
+    display:flex;
+    justify-content: space-around;
+} */
+
+
+#First_Body{
+    background-color: rgb(180,180,180, .6);
+    height: 400px;
+}
+
+#Description_Title {
+    font-family: "Audiowide";
+    color: rgb(15,12,8)
+}
+
+#Bottom_Part{
+    background-color: rgb(30,30,70,.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+#Bottom_Part a{
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 170%;
+    padding: 4px 16px;
+    background: #f1f1f1;
+    text-decoration: none;
+    /* background-color: rgb(50, 100, 100); */
+    color: rgb(250,250,250);
+    /* transition: .3s; */
+    width: 15%;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to right, rgb(150,150,150) 50%, rgb(50,75,125,.8) 50% );
+    transition: background-position .5s;
+}
+
+#Bottom_Part a:hover{
+    /* background-color: rgb(195, 145, 155);
+    color: rgb(5,5,5);
+    transition: 1s;
+    left: 0; */
+    background-position: -100% 0;
+    /* font */
+}
+
+/* .Box_Slide{
+    position: absolute;
+    background-color: black;
+} */
